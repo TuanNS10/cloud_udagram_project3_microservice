@@ -5,7 +5,7 @@ data:
   AWS_PROFILE: default
   AWS_REGION: eu-east-1
   JWT_SECRET: udagramjwtsecret
-  POSTGRES_DB: udagram-microservice
+  POSTGRES_DB: postgres
   POSTGRES_HOST: udagram-microservice.ccd52jwfyise.us-west-1.rds.amazonaws.com
   URL: http://a69e01b602e654d7a825dd03c761b301-338395976.us-east-1.elb.amazonaws.com:8080
   PORT: "8080"
