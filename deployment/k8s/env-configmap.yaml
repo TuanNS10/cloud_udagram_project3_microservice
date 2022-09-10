@@ -7,7 +7,7 @@ data:
   JWT_SECRET: udagramjwtsecret
   POSTGRES_DB: postgres
   POSTGRES_HOST: udagram-microservice.ccd52jwfyise.us-west-1.rds.amazonaws.com
-  URL: http://a2fdfda3d5d6849d5aac8c830c736be9-323761467.us-west-1.elb.amazonaws.com
+  URL: http://acb74ceeeb1b543c2885b0071ec912ea-1215470482.us-west-1.elb.amazonaws.com
   PORT: "8080"
 metadata:
   name: env-config
