@@ -1,13 +1,13 @@
 apiVersion: v1
 kind: ConfigMap
 data:
-  AWS_BUCKET: arn:aws:s3:::tuannguyen-585518940296-dev
+  AWS_BUCKET: arn:aws:s3:::tuannguyen-dev
   AWS_PROFILE: default
   AWS_REGION: eu-east-1
   JWT_SECRET: udagramjwtsecret
   POSTGRES_DB: postgres
-  POSTGRES_HOST: udagram-microservice.ccd52jwfyise.us-west-1.rds.amazonaws.com
-  URL: http://acb74ceeeb1b543c2885b0071ec912ea-1215470482.us-west-1.elb.amazonaws.com
+  POSTGRES_HOST: database-microservices.cf5fn02irhvf.us-west-1.rds.amazonaws.com
+  URL: http://a39c32d75b0f04b3db193927b42f6982-546515872.us-west-1.elb.amazonaws.com
   PORT: "8080"
 metadata:
   name: env-config
